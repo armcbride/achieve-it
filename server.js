@@ -7,6 +7,7 @@ const routes = require('./routes/api-routes');
 const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+//needs to match proxy in package.json for React - connects react to the server -- process.env.PORT is for mongo on deployment, 3002 is local 
 const PORT = process.env.PORT || 3002;
 const app = express();
 require('./passportConfig')(passport);
