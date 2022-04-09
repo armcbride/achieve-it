@@ -42,7 +42,7 @@
     "express-session": "^1.17.1",
     "fullcalendar": "^5.1.0",
     "if-env": "^1.0.4",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.20",
     "passport": "^0.4.1",
